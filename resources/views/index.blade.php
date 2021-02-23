@@ -6,14 +6,15 @@
 <section id="hero" class="clearfix">
     <div class="container">
 
-        <div class="hero-banner">
+        <div class="hero-banner"dir="rtl">
             <img src="{{asset('site')}}/img/intro-carousel/banner.svg" alt="" class="img-fluid">
         </div>
 
-        <div class="hero-content">
-            <h2>Say YES to<br><span>Opportunity</span></h2>
+        <div class="hero-content" dir="rtl">
+           <h2> دار التطوير<br>
+            <span>لأنظمة التتبع و إدارة السطول</span></h2>
             <div>
-                <a href="#" class="btn-banner">Our Service</a>
+                <a href="#" class="btn-banner">ماذا نقدم لك؟</a>
             </div>
         </div>
 
@@ -25,26 +26,22 @@
     <!--==========================
       About Section
     ============================-->
-    <section id="about" class="wow fadeInUp">
+    <section id="about" class="wow fadeInUp" dir="rtl">
         <div class="container">
             <div class="section-header">
-                <h2>Welcome to  Courager..</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p>
+                <h2>تعرف علينا</h2>
+               <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p> -->
             </div>
             <div class="row">
                 <div class="col-lg-6 about-img">
                     <img src="{{asset('site')}}/img/about.svg" alt="">
                 </div>
 
-                <div class="col-lg-6 content">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
-                    <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3>
-                    <p>Consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat</p>
-                    <ul>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> Dolores quae porro consequatur aliquam, incidunt fugiat culpa.</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> Dolores quae porro consequatur aliquam, culpa esse aute nulla.</li>
-                        <li><i class="icon ion-ios-checkmark-outline"></i> Dolores quae porro esse aute nulla. malis nulla duis fugiat</li>
-                    </ul>
+                <div class="col-lg-6 content" dir="rtl">
+                  <!--  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2> -->
+                   <!-- <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3> -->
+                    <p >نحن شركة سعوديه متخصصه في الحلول التقنيه و الذكاء الإصطناعي لأساطيل النقل و المركبات الخاصه و الحكوميه بإدارة نخبه من الكفاءات الوطنيه الطموحه و نحن احد فروع شركة ديارات التجاريه (مساهمه مقفله) الرائده في اعمال الطرق والتقنيات المروريه والأمنيه و الطبيه و الغذائيه منذ عام 1988م</p>
+                    
                 </div>
             </div>
 
@@ -54,60 +51,60 @@
     <!--==========================
       Services Section
     ============================-->
-    <section id="services">
+    <section id="services" dir="rtl">
         <div class="container">
             <div class="section-header">
-                <h2>Our Services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                <h2>خدماتنا</h2>
+              
             </div>
 
-            <div class="row">
+            <div class="row" dir="rtl">
 
                 <div class="col-lg-4">
                     <div class="box wow fadeInLeft">
                         <div class="icon"><i class="fa fa-wifi" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">Marketing</a></h4>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                        <h4 class="title"><a href="">مطابقة الأوزان</a></h4>
+                        <p class="description">نقدم خدمة تحميل و وزن الشاحنات لتوفير الوقت على عملائنا و مطابقة أوزان شاحناتهم الفعلي مع الوزن الظاهر في انظمة هيئة النقل دون الحاجه لزياره ميزان شاحنات للمطابقه</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="box wow fadeInRight">
                         <div class="icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">Consulting</a></h4>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                        <h4 class="title"><a href="">إصدار كرت التشغيل</a></h4>
+                        <p class="description">نقدم خدمة تحميل و وزن الشاحنات لتوفير الوقت على عملائنا و مطابقة أوزان شاحناتهم الفعلي مع الوزن الظاهر في انظمة هيئة النقل دون الحاجه لزياره ميزان شاحنات للمطابقه</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4">
                     <div class="box wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="icon"><i class="fa fa-university" aria-hidden="true"></i></div>
                         <h4 class="title"><a href="">Strategy</a></h4>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="col-lg-4">
                     <div class="box wow fadeInRight" data-wow-delay="0.2s">
                         <div class="icon"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">Quality</a></h4>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                        <h4 class="title"><a href="">أنظمة ادارة الأسطول المتكامله</a></h4>
+                        <p class="description">أنظمة التتبع و الإداره للمركبات عن بعد بمميزات عده عن طريق تقنيات الذكاء الإصطناعي التي تمكن المستخدم من اعطاء الأوامر و الإطلاع على البيانات لكامل الأسطول عن طريق النظام مع إمكانية اصدار تقارير مفصله حسب احتياج المستخدم و اضافة تقنيات امنيه تمنع السرقات او التعدي على المركبات بإذن الله</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4">
                     <div class="box wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="icon"><i class="fa fa-pie-chart" aria-hidden="true"></i></div>
                         <h4 class="title"><a href="">Analysis</a></h4>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="col-lg-4">
                     <div class="box wow fadeInRight" data-wow-delay="0.2s">
                         <div class="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">Creative</a></h4>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                        <h4 class="title"><a href="">التتبع و الحمايه للسيارات الخاصه</a></h4>
+                        <p class="description">خدمة تمكنك من معرفة مكان و سرعة سيارتك و معرفة اوقات و اماكن توقفها بشكل لحظي و توفير خدمات امنيه في حالة السرقه مثل التقاط صوره للسائق و إيقاف تشغيل المحرك عن بعد و التنبيه بحصول حادث لا قدر الله عن طريق تطبيق على هاتفك الذكي</p>
                     </div>
                 </div>
             </div>
@@ -117,7 +114,7 @@
 
     <!--==========================
       Clients Section
-    ============================-->
+   {{--  ============================-->
     <section id="clients" class="wow fadeInUp">
         <div class="container">
             <div class="section-header">
@@ -136,7 +133,7 @@
 
         </div>
     </section><!-- #clients -->
-
+    --}}
 {{--    <!--==========================--}}
 {{--      Our Portfolio Section--}}
 {{--    ============================-->--}}
@@ -309,13 +306,13 @@
     ============================-->
     <section id="call-to-action" class="wow fadeInUp">
         <div class="container">
-            <div class="row">
+            <div class="row" dir="rtl">
                 <div class="col-lg-9 text-center text-lg-left">
-                    <h3 class="cta-title">Get Our Service</h3>
-                    <p class="cta-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <!-- <h3 class="cta-title">Get Our Service</h3> -->
+                    <p class="cta-text">نقدم لك خدماتنا في اي من مراكز الخدمه المعتمده المنتشره في جميع انحاء المملكه أو ارسال فريق فني لخدمتك في موقعك</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#contact">Contact Us</a>
+                    <a class="cta-btn align-middle" href="#contact">تواصل معنا</a>
                 </div>
             </div>
 
@@ -403,29 +400,30 @@
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="wow fadeInUp">
+    <section id="contact" class="wow fadeInUp" dir="rtl">
         <div class="container">
             <div class="section-header">
-                <h2>Contact Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                <h2>تسرنا خدمتك</h2>
+                <p>خدمتك أولويتنا ونسعد بتواصلك معنا
+                </p>
             </div>
 
-            <div class="row contact-info">
+            <div class="row contact-info" dir="rtl">
                 <div class="col-lg-5">
-                    <div class="contact-address">
+                     <!--<div class="contact-address">
                         <i class="ion-ios-location-outline"></i>
                         <h3>Address</h3>
                         <address>MN-12 Lincon Street, NewYork 12356, USA</address>
-                    </div>
-                    <div class="contact-phone">
-                        <i class="ion-ios-telephone-outline"></i>
-                        <h3>Phone Number</h3>
-                        <p><a href="tel:+155895548855">+1 2345 67890 12</a></p>
+                    </div>-->
+                    <div class="contact-phone" dir="rtl">
+                        <i class="ion-ios-telephone-outline" dir="rtl"></i>
+                        <h3>عن طريق الواتساب  </h3>
+                        <p><a href="tel:+155895548855">966508803086+</a></p>
                     </div>
                     <div class="contact-email">
                         <i class="ion-ios-email-outline"></i>
-                        <h3>Email</h3>
-                        <p><a href="mailto:info@example.com">name@website.com</a></p>
+                        <h3>البريد الإلكتروني</h3>
+                        <p><a href="mailto:info@example.com">info@hod.sa</a></p>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -433,11 +431,11 @@
                         <div class="form">
 
                             <!-- Form itself -->
-                            <form name="sentMessage" class="well" id="contactForm"  novalidate>
+                            <form name="sentMessage" class="well" id="contactForm"  novalidate dir="rtl">
                                 <div class="control-group">
                                     <div class="form-group">
                                         <input type="text" class="form-control"
-                                               placeholder="Full Name" id="name" required
+                                               placeholder="الإسم" id="name" required
                                                data-validation-required-message="Please enter your name" />
                                         <p class="help-block"></p>
 
@@ -445,23 +443,23 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="controls">
-                                        <input type="email" class="form-control" placeholder="Email"
+                                        <input type="email" class="form-control" placeholder="الإيميل"
                                                id="email" required
                                                data-validation-required-message="Please enter your email" />
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <div class="controls">
-				 <textarea rows="10" cols="100" class="form-control"
-                           placeholder="Message" id="message" required
+                             <div class="controls">
+			           	 <textarea rows="10" cols="100" class="form-control"
+                           placeholder="اكتب ستفسارك هنا" id="message" required
                            data-validation-required-message="Please enter your message" minlength="5"
                            data-validation-minlength-message="Min 5 characters"
                            maxlength="999" style="resize:none"></textarea>
                                     </div>
                                 </div>
                                 <div id="success"> </div> <!-- For success/fail messages -->
-                                <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+                                <button type="submit" class="btn btn-primary pull-right">إرسال</button><br />
                             </form>
                         </div>
 
