@@ -9,7 +9,7 @@ License: https://webthemez.com/license
 body {
   background: #fff;
   color: #444;
-  font-family: 'Kufam', 'Montserrat' ,  sans-serif;
+  font-family:  'Almarai' ,  sans-serif;
 }
 
 a {
@@ -29,7 +29,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 6px 0 0 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 700;
 }
 
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-content .btn-banner, #hero .hero-content .btn-projects {
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 700;
   font-size: 14px;
   outline: none;
@@ -590,7 +590,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #000000;
   font-weight: 700;
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
 }
 
 #about .content h3 {
@@ -936,7 +936,7 @@ p.help-block li {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;

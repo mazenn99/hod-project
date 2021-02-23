@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{app()->getLocale()}}">
+<html lang="{{app()->getLocale()}}" dir="<?php if(app()->getLocale() == 'en') echo 'ltr'; else echo 'rtl';?>">
 <head>
     <meta charset="utf-8">
     <title>{{trans('home/header.title')}}</title>
@@ -16,7 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap" rel="stylesheet">
+
+
     <!-- Bootstrap CSS File -->
     @if(app()->getLocale() == 'en')
     <link href="{{asset('site')}}/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">

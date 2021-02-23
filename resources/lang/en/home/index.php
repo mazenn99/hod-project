@@ -1,19 +1,38 @@
 <?php
     return [
-         'over_view'     => 'نحن شركة سعودية متخصصة في الحلول التقنية والذكاء الإصطناعي لأساطيل النقل والمركبات الخاصة والحكومية بإدارة نخبة من الكفاءات الوطنية الطموحة
-ونحن أحد فروع شركة ديارات التجارية (مساهمة مقفلة) الرائدة في أعمال الطرق والتقنيات المرورية والأمنية والطبية والغذائية منذ عام 1988م.                           ',
-         'licensed_be'   => 'دارالتطوير مرخصة من',
-         'Communication_Technology' => 'هيئة الإتصال وتقنية المعلومات',
-        'Public_Transport' => 'الهيئة العامة للنقل',
-        'offer_you' => 'ماذا نقدم لك',
-        'Tracking_protection_service' => 'خدمة التتبع والحماية للسيارات الخاصة',
-        'Tracking_protection_service_overView' => 'خدمة تمكنك من معرفة مكان وسرعة سيارتك ومعرفة أوقات وأماكن توقفها بشكل لحظي وتوفير خدمات أمنية في حالة السرقة مثل التقاط صورة للسائق وإيقاف تشغيل المحرك عن بعد والتنبيه بحصول حادث لا قدر الله عن طريق تطبيق على هاتف الذكي.
+        'copyright' => 'Copyright. All Rights Reserved',
+        'copyright_company' => 'Deyarat Co.',
+        'company_name' => 'House of Development',
+        'tracking_and_management' => 'For tracking fleet',
+        'fleet_management_systems' => ' management systems',
+        'what_we_serve_to_you' => 'What do we offer you?',
+        'get_to_know_us' => 'get to know us',
+        'our_service'    => 'our services',
+        'matching_weights' => 'matching weights',
+        'operating_card_version' => 'The operating card version',
+        'integrated_fleet_management_systems' => 'Integrated fleet management systems',
+        'contact_us' => 'contact usu',
+        'pleased_to_serve_you' => 'pleased to serve you',
+        'your_service_is_our_priority' => 'Your service is our priority and we are happy to contact you',
+        'via_whatsapp' => 'via whatsapp',
+        'email' => 'via email',
+        'form_name' => 'name',
+        'form_email' => 'email',
+        'form_textarea' => 'Write your explanation here',
+        'send_button'   => 'send',
 
-نقدم لك خدماتنا في أي مراكز الخدمة المعتمدة المنتشرة في جميع أنحاء المملكة أو إرسال فريق فني لخدمتك في موقعك',
-        'Operation_card_service' => 'نساعدك على استيفاء متطلبات تشغيل الشاحنات واستخراج كرت التشغيل بما يتماشى مع لوائح النقل البري الصادرة من الهيئة العامة للنقل بأسرع وقت وأقل تكلفة',
-        'Integrated_management_systems' => 'أنظمة التتبع والإدارة للمركبات عن بعد بمميزات عدة عن طريق تقنيات الذكاء الاصطناعي التي تمكن المستخدم من إعطاء الأوامر والإطلاع على البيانات لكامل الأسطول عن طريق النظام مع إمكانية أصدار تقارير مفصلة حسب احتياج المستخدم وإضافة تقنيات أمنية تمنع السرقات أو التعدي على المكربات بإذن الله.',
-        'Weights_Matching_Service' => 'نقدم خدمة تحميل ووزن الشاحنات لتوفير الوقت على عملائنا ومطابقة اوزان شاحناتهم الفعلي مع الوزن الظاهر في أنظمة هيئة النقل دون الحاجة لزيادة ميزان شاحنات للمطابقة.',
-        'happy_to_serve_you' => 'نسعد بخدمتك عن طريق',
-        'contact_mail' =>'يمكنك التواصل معنا عبر البريد الالكتروني',
+        'over_view'     => 'We are a Saudi company specialized in technical solutions and artificial intelligence for transport fleets and private and government vehicles, managing a group of ambitious national competencies
+We are one of the branches of the Dyarat Trading Company (Closed Joint Stock), a leader in road works, traffic, security, medical and food technologies since 1988.',
+         'licensed_be'   => 'The development house is licensed by',
+         'Communication_Technology' => 'Communication and Information Technology Authority',
+        'Public_Transport' => 'Public Transport Authority',
+        'Tracking_protection_service' => 'Tracking and protection service for private cars',
+        'Tracking_protection_service_overView' => 'A service that enables you to know the location and speed of your car, know the times and places it stops in real time, and provide security services in the event of theft, such as taking a picture of the driver, turning off the engine remotely, and alerting the occurrence of an accident, God forbid, through an application on a smartphone.
+We provide our services to you at any authorized service centers spread throughout the Kingdom or send a technical team to serve you at your site',
+        'Operation_card_service' => 'We help you to fulfill the requirements of operating the trucks and extract the operation card in line with the road transport regulations issued by the Public Transport Authority in the fastest time and at the lowest cost',
+        'Integrated_management_systems' => 'Remote tracking and management systems for vehicles with several features through artificial intelligence techniques that enable the user to give orders and view data for the entire fleet through the system with the ability to issue detailed reports according to the user\'s need and add security techniques to prevent thefts or infringement of vehicles, God willing.',
+        'Weights_Matching_Service' => 'We provide truck loading and weighing service to save our customers time and match their actual truck weights with the weight shown in the Transportation Authority systems without the need to increase a truck scale for matching.',
+        'happy_to_serve_you' => 'We are happy to serve you through',
+        'contact_mail' =>'You can contact us via e-mail',
 
     ];

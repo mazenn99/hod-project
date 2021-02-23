@@ -5,10 +5,10 @@
 <footer id="footer">
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong> Courager</strong>. All Rights Reserved
+            &copy; {{trans('home/index.copyright')}} <strong> {{trans('home/index.copyright_company')}}</strong>
         </div>
         <div class="credits">
-            Template by <a href="https://webthemez.com/consulting/">WebThemez</a>
+            Desgin By <a href="https://www.twitter.com/aaysha15">@aysha</a>
         </div>
     </div>
 </footer><!-- #footer -->

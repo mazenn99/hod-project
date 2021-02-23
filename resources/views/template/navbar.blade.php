@@ -16,7 +16,8 @@
                 <li><a href="#services">{{trans('home/header.service')}}</a></li>
                 {{--                <li><a href="#portfolio">Portfolio</a></li>--}}
                 {{--                <li><a href="#team">Our Team</a></li>--}}
-
+                <li><a href="#contact">{{trans('home/header.contact')}}</a></li>
+                <li><a href="http://gps.hod.sa/">{{trans('home/header.login')}}</a></li>
                 <li class="menu-has-children"><a href="">{{trans('home/header.language')}}</a>
                     <ul>
                         @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
@@ -28,8 +29,6 @@
                         @endforeach
                     </ul>
                 </li>
-                <li><a href="#contact">{{trans('home/header.contact')}}</a></li>
-                <li><a href="#contact">{{trans('home/header.login')}}</a></li>
             </ul>
         </nav><!-- #nav-menu-container -->
     </div>

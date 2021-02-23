@@ -6,15 +6,15 @@
 <section id="hero" class="clearfix">
     <div class="container">
 
-        <div class="hero-banner"dir="rtl">
+        <div class="hero-banner">
             <img src="{{asset('site')}}/img/intro-carousel/banner.svg" alt="" class="img-fluid">
         </div>
 
-        <div class="hero-content" dir="rtl">
-           <h2> دار التطوير<br>
-            <span>لأنظمة التتبع و إدارة السطول</span></h2>
+        <div class="hero-content" >
+           <h2>{{trans('home/index.company_name')}}<br>
+            <span>{{trans('home/index.tracking_and_management')}} @if(app()->getLocale() == 'en') <br> {{trans('home/index.fleet_management_systems')}} @endif </span></h2>
             <div>
-                <a href="#" class="btn-banner">ماذا نقدم لك؟</a>
+                <a href="#" class="btn-banner">{{trans('home/index.what_we_serve_to_you')}}</a>
             </div>
         </div>
 
@@ -26,22 +26,22 @@
     <!--==========================
       About Section
     ============================-->
-    <section id="about" class="wow fadeInUp" dir="rtl">
+    <section id="about" class="wow fadeInUp" >
         <div class="container">
             <div class="section-header">
-                <h2>تعرف علينا</h2>
-               <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p> -->
+                <h2>{{trans('home/index.get_to_know_us')}}</h2>
+{{--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p> --}}
             </div>
             <div class="row">
                 <div class="col-lg-6 about-img">
                     <img src="{{asset('site')}}/img/about.svg" alt="">
                 </div>
 
-                <div class="col-lg-6 content" dir="rtl">
+                <div class="col-lg-6 content" >
                   <!--  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2> -->
                    <!-- <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3> -->
-                    <p >نحن شركة سعوديه متخصصه في الحلول التقنيه و الذكاء الإصطناعي لأساطيل النقل و المركبات الخاصه و الحكوميه بإدارة نخبه من الكفاءات الوطنيه الطموحه و نحن احد فروع شركة ديارات التجاريه (مساهمه مقفله) الرائده في اعمال الطرق والتقنيات المروريه والأمنيه و الطبيه و الغذائيه منذ عام 1988م</p>
-                    
+                    <p>{{trans('home/index.over_view')}}</p>
+
                 </div>
             </div>
 
@@ -51,28 +51,29 @@
     <!--==========================
       Services Section
     ============================-->
-    <section id="services" dir="rtl">
+    <section id="services" >
         <div class="container">
             <div class="section-header">
-                <h2>خدماتنا</h2>
-              
+                <h2>{{trans('home/index.our_service')}}</h2>
+
             </div>
 
-            <div class="row" dir="rtl">
+            <div class="row" >
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="fa fa-wifi" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">مطابقة الأوزان</a></h4>
-                        <p class="description">نقدم خدمة تحميل و وزن الشاحنات لتوفير الوقت على عملائنا و مطابقة أوزان شاحناتهم الفعلي مع الوزن الظاهر في انظمة هيئة النقل دون الحاجه لزياره ميزان شاحنات للمطابقه</p>
+                        <div class="icon"><i class="fa fa-balance-scale" aria-hidden="true"></i></div>
+                        <h4 class="title"><a href="">{{trans('home/index.matching_weights')}}</a></h4>
+                        <p class="description">{{trans('home/index.Weights_Matching_Service')}}
+                        </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="box wow fadeInRight">
-                        <div class="icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">إصدار كرت التشغيل</a></h4>
-                        <p class="description">نقدم خدمة تحميل و وزن الشاحنات لتوفير الوقت على عملائنا و مطابقة أوزان شاحناتهم الفعلي مع الوزن الظاهر في انظمة هيئة النقل دون الحاجه لزياره ميزان شاحنات للمطابقه</p>
+                        <div class="icon"><i class="fa fa-caret-square-o-down" aria-hidden="true"></i></div>
+                        <h4 class="title"><a href="">{{trans('home/index.operating_card_version')}}</a></h4>
+                        <p class="description">{{trans('home/index.Operation_card_service')}}</p>
                     </div>
                 </div>
 
@@ -84,11 +85,11 @@
                     </div>
                 </div> --}}
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="box wow fadeInRight" data-wow-delay="0.2s">
                         <div class="icon"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">أنظمة ادارة الأسطول المتكامله</a></h4>
-                        <p class="description">أنظمة التتبع و الإداره للمركبات عن بعد بمميزات عده عن طريق تقنيات الذكاء الإصطناعي التي تمكن المستخدم من اعطاء الأوامر و الإطلاع على البيانات لكامل الأسطول عن طريق النظام مع إمكانية اصدار تقارير مفصله حسب احتياج المستخدم و اضافة تقنيات امنيه تمنع السرقات او التعدي على المركبات بإذن الله</p>
+                        <h4 class="title"><a href="">{{trans('home/index.integrated_fleet_management_systems')}}</a></h4>
+                        <p class="description">{{trans('home/index.Integrated_management_systems')}}</p>
                     </div>
                 </div>
 
@@ -100,11 +101,11 @@
                     </div>
                 </div> --}}
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="box wow fadeInRight" data-wow-delay="0.2s">
                         <div class="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">التتبع و الحمايه للسيارات الخاصه</a></h4>
-                        <p class="description">خدمة تمكنك من معرفة مكان و سرعة سيارتك و معرفة اوقات و اماكن توقفها بشكل لحظي و توفير خدمات امنيه في حالة السرقه مثل التقاط صوره للسائق و إيقاف تشغيل المحرك عن بعد و التنبيه بحصول حادث لا قدر الله عن طريق تطبيق على هاتفك الذكي</p>
+                        <h4 class="title"><a href="">{{trans('home/index.Tracking_protection_service')}}</a></h4>
+                        <p class="description">{{trans('home/index.Tracking_protection_service_overView')}}</p>
                     </div>
                 </div>
             </div>
@@ -306,13 +307,13 @@
     ============================-->
     <section id="call-to-action" class="wow fadeInUp">
         <div class="container">
-            <div class="row" dir="rtl">
+            <div class="row">
                 <div class="col-lg-9 text-center text-lg-left">
                    <!-- <h3 class="cta-title">Get Our Service</h3> -->
-                    <p class="cta-text">نقدم لك خدماتنا في اي من مراكز الخدمه المعتمده المنتشره في جميع انحاء المملكه أو ارسال فريق فني لخدمتك في موقعك</p>
+                    <p class="cta-text">{{trans('home/index.Tracking_protection_service_overView')}}</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#contact">تواصل معنا</a>
+                    <a class="cta-btn align-middle" href="#contact">{{trans('home/index.contact_us')}}</a>
                 </div>
             </div>
 
@@ -400,66 +401,78 @@
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="wow fadeInUp" dir="rtl">
+    <section id="contact" class="wow fadeInUp" >
         <div class="container">
             <div class="section-header">
-                <h2>تسرنا خدمتك</h2>
-                <p>خدمتك أولويتنا ونسعد بتواصلك معنا
+                <h2>{{trans('home/index.pleased_to_serve_you')}}</h2>
+                <p>
+                    {{trans('home/index.your_service_is_our_priority')}}
                 </p>
             </div>
 
-            <div class="row contact-info" dir="rtl">
+            <div class="row contact-info" >
                 <div class="col-lg-5">
                      <!--<div class="contact-address">
                         <i class="ion-ios-location-outline"></i>
                         <h3>Address</h3>
                         <address>MN-12 Lincon Street, NewYork 12356, USA</address>
                     </div>-->
-                    <div class="contact-phone" dir="rtl">
-                        <i class="ion-ios-telephone-outline" dir="rtl"></i>
-                        <h3>عن طريق الواتساب  </h3>
-                        <p><a href="tel:+155895548855">966508803086+</a></p>
+                    <div class="contact-phone" >
+                        <i class="ion-ios-telephone-outline" ></i>
+                        <h3>{{trans('home/index.via_whatsapp')}}</h3>
+                        <p><a href="http://api.whatsapp.com/send?phone=+966508803086">+966508803086</a></p>
                     </div>
                     <div class="contact-email">
                         <i class="ion-ios-email-outline"></i>
-                        <h3>البريد الإلكتروني</h3>
-                        <p><a href="mailto:info@example.com">info@hod.sa</a></p>
+                        <h3>{{trans('home/index.email')}}</h3>
+                        <p><a href="mailto:info@hod.sa">info@hod.sa</a></p>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="container">
                         <div class="form">
-
+                            @if(session()->has('success'))
+                                <div class="alert alert-success">{{session()->get('success')}}</div>
+                            @endif
                             <!-- Form itself -->
-                            <form name="sentMessage" class="well" id="contactForm"  novalidate dir="rtl">
+                            <form name="sentMessage" action="{{route('send.email')}}" method="POST" class="well" id="contactForm"  novalidate >
+                                @csrf
                                 <div class="control-group">
                                     <div class="form-group">
-                                        <input type="text" class="form-control"
-                                               placeholder="الإسم" id="name" required
+                                        <input type="text" class="form-control" name="name"
+                                               placeholder="{{trans('home/index.form_name')}}" id="name" required
                                                data-validation-required-message="Please enter your name" />
                                         <p class="help-block"></p>
-
+                                        @error('name')
+                                            <small class="small text-danger">{{$message}}</small>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="controls">
-                                        <input type="email" class="form-control" placeholder="الإيميل"
-                                               id="email" required
+                                        <input type="email" class="form-control" placeholder="{{trans('home/index.form_email')}}"
+                                               id="email" required name="email"
                                                data-validation-required-message="Please enter your email" />
+                                        @error('email')
+                                        <small class="small text-danger">{{$message}}</small>
+                                        @enderror
                                     </div>
                                 </div>
 
                                 <div class="form-group">
                              <div class="controls">
-			           	 <textarea rows="10" cols="100" class="form-control"
-                           placeholder="اكتب ستفسارك هنا" id="message" required
+			           	 <textarea rows="10" cols="100" class="form-control" name="description"
+                           placeholder="{{trans('home/index.form_textarea')}}" id="message" required
                            data-validation-required-message="Please enter your message" minlength="5"
                            data-validation-minlength-message="Min 5 characters"
                            maxlength="999" style="resize:none"></textarea>
+                                 @error('description')
+                                 <small class="small text-danger">{{$message}}</small>
+                                 @enderror
                                     </div>
                                 </div>
                                 <div id="success"> </div> <!-- For success/fail messages -->
-                                <button type="submit" class="btn btn-primary pull-right">إرسال</button><br />
+                                <button type="submit" class="btn btn-primary pull-right">{{trans('home/index.send_button')}}</button><br />
                             </form>
                         </div>
 
@@ -471,7 +484,7 @@
         </div>
 
         <div class="container mb-4 map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d387191.33750346623!2d-73.979681!3d40.6974881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1541477355474" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.0471607875297!2d46.75202871499953!3d24.690905484134237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f06ae97135a9f%3A0x1c06c3a480e41e88!2sDeyarat%20Co.!5e0!3m2!1sen!2ssa!4v1614109413067!5m2!1sen!2ssa" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
     </section><!-- #contact -->

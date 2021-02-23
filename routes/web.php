@@ -19,3 +19,6 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::post('send_email' , 'sendEmailController@sendEmail')->name('send.email');
+
+
