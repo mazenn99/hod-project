@@ -7,14 +7,14 @@
     <div class="container">
 
         <div class="hero-banner">
-            <img src="{{asset('site')}}/img/intro-carousel/banner.svg" alt="" class="img-fluid">
+            <img src="{{asset('site')}}/img/intro-carousel/banner_gb4.svg" alt="" class="img-fluid">
         </div>
 
         <div class="hero-content" >
            <h2>{{trans('home/index.company_name')}}<br>
             <span>{{trans('home/index.tracking_and_management')}} @if(app()->getLocale() == 'en') <br> {{trans('home/index.fleet_management_systems')}} @endif </span></h2>
             <div>
-                <a href="#" class="btn-banner">{{trans('home/index.what_we_serve_to_you')}}</a>
+                <a href="#services" class="btn-banner">{{trans('home/index.what_we_serve_to_you')}}</a>
             </div>
         </div>
 
@@ -34,13 +34,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 about-img">
-                    <img src="{{asset('site')}}/img/about.svg" alt="">
+                    <img src="{{asset('site')}}/img/intro-carousel/banner_gb2.svg" alt="">
                 </div>
 
                 <div class="col-lg-6 content" >
 {{--                   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>--}}
 {{--                    <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3>--}}
-                    <p class="mt-5 h5">{{trans('home/index.over_view')}}</p>
+                    <p class="mt-5 h4">{{trans('home/index.over_view')}}</p>
 
                 </div>
             </div>
@@ -310,7 +310,7 @@
             <div class="row">
                 <div class="col-lg-9 text-center text-lg-left">
                    <!-- <h3 class="cta-title">Get Our Service</h3> -->
-                    <p class="cta-text">{{trans('home/index.provide')}}</p>
+                    <p class="cta-text h5">{{trans('home/index.provide')}}</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
                     <a class="cta-btn align-middle" href="#contact">{{trans('home/index.contact_us')}}</a>

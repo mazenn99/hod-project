@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c9342aba-d50b-493e-a950-25a7744c9e7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../candidate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../candidate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../candidate/resources/views/template/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../candidate/resources/views/template/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../candidate/routes/visitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/../candidate/routes/visitor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/site/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/site/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/home/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/en/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/home/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/navbar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,17 +136,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/site/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/site/img/intro-carousel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\hodProject\public\site\img\intro-carousel" />
       <recent name="C:\xampp\htdocs\hodProject\public\site\img" />
       <recent name="C:\xampp\htdocs\hodProject\resources\lang\en\home" />
       <recent name="C:\xampp\htdocs\hodProject\resources\lang\en" />
       <recent name="C:\xampp\htdocs\hodProject\resources\lang" />
-      <recent name="C:\xampp\htdocs\hodProject\public\site" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\hodProject\resources\lang\ar\home" />
@@ -172,7 +172,8 @@
       <workItem from="1614104294114" duration="9550000" />
       <workItem from="1614136797305" duration="1750000" />
       <workItem from="1614161805763" duration="645000" />
-      <workItem from="1614175998833" duration="8209000" />
+      <workItem from="1614175998833" duration="8869000" />
+      <workItem from="1614193774848" duration="6200000" />
     </task>
     <servers />
   </component>

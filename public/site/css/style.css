@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #FF5722;
+  color: #bdc3c7;
 }
 
 .nav-menu > li {
@@ -602,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content p {
-  line-height: 32px;
+  line-height: 37px;
 }
 
 #about .content p:last-child {
@@ -636,6 +636,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   transition: 0.4s;
   border: 1px solid #dedede;
+  min-height: 280px;
 }
 
 #services .box:hover {
@@ -661,7 +662,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon i:before {
-  background: linear-gradient(45deg, #FF5722 0%, #FF9800 100%);
+  background: linear-gradient(45deg, #FF5722 0%, #2c3e50 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -912,7 +913,7 @@ p.help-block li {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #FF5722;
+  background: #485460;
   background-size: cover;
   padding: 65px 0;
 }
@@ -925,6 +926,7 @@ p.help-block li {
 
 #call-to-action .cta-text {
   color: #fff;
+    line-height : 36px;
 }
 
 @media (min-width: 769px) {
@@ -1153,20 +1155,20 @@ p.help-block li {
 }
 
 #contact .form button[type="submit"] {
-  background: #FF5722;
+  background: #FFF;
   border: 0;
   border-radius: 55px;
   padding: 6px 30px;
-  color: #fff;
+  color: #268A82;
   transition: 0.4s;
   cursor: pointer;
-  border: 2px solid #FF5722;
+  border: 2px solid #2c3e50;
 }
 
 #contact .form button[type="submit"]:hover {
-  color: #FF5722;
-  background: #ffffff;
-  border: 2px solid #FF5722;
+  color: #FFF;
+  background: #268A82;
+  border: 2px solid #FFF;
   border-radius: 30px;
 }
 
