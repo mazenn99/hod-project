@@ -5,7 +5,9 @@
     <div class="container">
 
         <div id="logo" class="pull-left">
-            <h1><a href="#body" class="scrollto"><span><i class="fa fa-star-half-o" aria-hidden="true"> </i> </span> Courage</a></h1>
+            <h1><a href="#body" class="scrollto"><span><i class="fa fa-star-half-o" aria-hidden="true"> </i> </span>
+                    <img src="{{asset('site/img/logo.png')}}" alt="">
+                </a></h1>
         </div>
 
 
