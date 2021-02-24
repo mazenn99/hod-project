@@ -13,12 +13,12 @@ body {
 }
 
 a {
-  color: #FF5722;
+  color: #268A82;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #51d8af;
+  color: #268A82;
   outline: none;
   text-decoration: none;
 }
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #FF5722;
+  background: #268A82;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -240,16 +240,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-content .btn-banner {
   background: #fff;
-  border: 2px solid #FF5722;
+  border: 2px solid #2c3e50;
   border-radius: 30px;
-  color: #FF5722;
+  color: #268A82;
 }
 
 #hero .hero-content .btn-banner:hover {
   background: none;
   color: #fff;
-  background: #FF5722;
-  border: 2px solid #FF5722;
+  background: #268A82;
+  border: 2px solid #fff;
   border-radius: 30px;
 }
 
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #E91E63;
+  color: #7f8c8d;
 }
 
 .nav-menu ul ul {
@@ -442,12 +442,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: #FF5722;
+  background: #7f8c8d;
   left: -260px;
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
-  background: linear-gradient(45deg, #bf370c -200%, #f43b00 100%);
+  background: linear-gradient(45deg, #bf370c -200%, #7f8c8d 100%);
 }
 
 #mobile-nav ul {
@@ -602,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content p {
-  line-height: 26px;
+  line-height: 32px;
 }
 
 #about .content p:last-child {
@@ -631,7 +631,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box {
-  padding: 40px;
+  padding: 60px;
   margin-bottom: 40px;
   background: #fff;
   transition: 0.4s;

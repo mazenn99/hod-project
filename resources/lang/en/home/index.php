@@ -1,6 +1,9 @@
 <?php
     return [
-        'provide' => 'We provide our services to you in any of the authorized service centers spread throughout the Kingdom or send a technical team to serve you at your site',
+        'provide' => 'Tracking systems and fleet management at Development House provide you with its services by going to any of the approved service centers spread throughout the Kingdom
+Or by sending a technical team to serve you at your site
+We seek to satisfy you with our services
+For inquiries, contact us',
         'copyright' => 'Copyright. All Rights Reserved',
         'copyright_company' => 'Deyarat Co.',
         'company_name' => 'House of Development',

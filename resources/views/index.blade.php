@@ -38,9 +38,9 @@
                 </div>
 
                 <div class="col-lg-6 content" >
-                  <!--  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2> -->
-                   <!-- <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3> -->
-                    <p>{{trans('home/index.over_view')}}</p>
+{{--                   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>--}}
+{{--                    <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3>--}}
+                    <p class="mt-5 h5">{{trans('home/index.over_view')}}</p>
 
                 </div>
             </div>
