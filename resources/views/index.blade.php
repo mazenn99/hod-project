@@ -310,7 +310,7 @@
             <div class="row">
                 <div class="col-lg-9 text-center text-lg-left">
                    <!-- <h3 class="cta-title">Get Our Service</h3> -->
-                    <p class="cta-text">{{trans('home/index.Tracking_protection_service_overView')}}</p>
+                    <p class="cta-text">{{trans('home/index.provide')}}</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
                     <a class="cta-btn align-middle" href="#contact">{{trans('home/index.contact_us')}}</a>

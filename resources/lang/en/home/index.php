@@ -1,5 +1,6 @@
 <?php
     return [
+        'provide' => 'We provide our services to you in any of the authorized service centers spread throughout the Kingdom or send a technical team to serve you at your site',
         'copyright' => 'Copyright. All Rights Reserved',
         'copyright_company' => 'Deyarat Co.',
         'company_name' => 'House of Development',

@@ -4,7 +4,10 @@
     <list default="true" id="c9342aba-d50b-493e-a950-25a7744c9e7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../candidate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../candidate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/site/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/site/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/template/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/navbar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +172,7 @@
       <workItem from="1614104294114" duration="9550000" />
       <workItem from="1614136797305" duration="1750000" />
       <workItem from="1614161805763" duration="645000" />
-      <workItem from="1614175998833" duration="2597000" />
+      <workItem from="1614175998833" duration="4006000" />
     </task>
     <servers />
   </component>
