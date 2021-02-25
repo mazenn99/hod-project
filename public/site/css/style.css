@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
     width: 100%;
     position: relative;
-    background: url(../img/intro-carousel/banner-bg2.png) center bottom no-repeat;
+    background: url(../img/intro-carousel/banner_bg.png) center bottom no-repeat;
     background-size: cover;
     padding: 200px 0 120px 0;
 	top:0px;
@@ -223,6 +223,10 @@ h1, h2, h3, h4, h5, h6 {
     background: #ffffff00;
     padding: 0;
   }
+/*#hero .hero-content h2 span {*/
+/*    font-size:40px;*/
+/*}*/
+
 }
 
 #hero .hero-content .btn-banner, #hero .hero-content .btn-projects {
@@ -1113,6 +1117,11 @@ p.help-block li {
 #hero .hero-content h2 span{
 	font-size:40px;
 }
+}
+@media (max-width: 700px) {
+    #hero .hero-content h2 span{
+        font-size:40px;
+    }
 }
 
 #contact .form #sendmessage {

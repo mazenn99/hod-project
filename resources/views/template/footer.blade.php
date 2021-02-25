@@ -8,7 +8,7 @@
             &copy; {{trans('home/index.copyright')}} <strong> {{trans('home/index.copyright_company')}}</strong>
         </div>
         <div class="credits">
-            Desgin By <a href="https://www.twitter.com/aaysha15">@aysha</a>
+            Desgin By <a href="mailto:aayahsa1420@gmail.com">@aysha</a>
         </div>
     </div>
 </footer><!-- #footer -->
