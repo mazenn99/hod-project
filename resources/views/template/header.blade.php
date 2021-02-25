@@ -8,8 +8,8 @@
     <meta content="" name="{{__('home/index.over_view')}}">
     <meta content="Author" name="aaysha1420@gmail.com">
     <!-- Favicons -->
-    <link href="{{asset('site')}}/img/favicon.png" rel="icon">
-    <link href="{{asset('site')}}/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{asset('site')}}/img/logo_company.png" rel="icon" sizes="16x16">
+    <link href="{{asset('site')}}/img/logo_company.png" rel="apple-touch-icon" sizes="16x16">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
