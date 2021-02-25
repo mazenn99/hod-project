@@ -9,7 +9,10 @@
       <change beforePath="$PROJECT_DIR$/../candidate/routes/candidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../candidate/routes/candidate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../candidate/routes/visitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/../candidate/routes/visitor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/site/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/site/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/site/img/intro-carousel/banner_gb2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/site/img/intro-carousel/banner_gb4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +140,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/site/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../candidate" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\hodProject\public\site\img" />
       <recent name="C:\xampp\htdocs\hodProject\public\site\img\intro-carousel" />
+      <recent name="C:\xampp\htdocs\hodProject\public\site\img" />
       <recent name="C:\xampp\htdocs\hodProject\resources\lang\en\home" />
       <recent name="C:\xampp\htdocs\hodProject\resources\lang\en" />
       <recent name="C:\xampp\htdocs\hodProject\resources\lang" />
@@ -178,7 +181,7 @@
       <workItem from="1614193774848" duration="6856000" />
       <workItem from="1614223928087" duration="286000" />
       <workItem from="1614224464374" duration="1519000" />
-      <workItem from="1614249786453" duration="1076000" />
+      <workItem from="1614249786453" duration="3772000" />
     </task>
     <servers />
   </component>

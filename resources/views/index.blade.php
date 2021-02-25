@@ -7,7 +7,7 @@
     <div class="container">
 
         <div class="hero-banner">
-            <img src="{{asset('site')}}/img/intro-carousel/banner_gb4.svg" alt="" class="img-fluid">
+            <img src="{{asset('site')}}/img/intro-carousel/banner_gb4.png" alt="" class="img-fluid">
         </div>
 
         <div class="hero-content" >
@@ -34,7 +34,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 about-img">
-                    <img src="{{asset('site')}}/img/intro-carousel/banner_gb2.svg" alt="">
+                    <img src="{{asset('site')}}/img/intro-carousel/banner_gb2.png" alt="">
                 </div>
 
                 <div class="col-lg-6 content" >
