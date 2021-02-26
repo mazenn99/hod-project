@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
     width: 100%;
     position: relative;
-    background: url(../img/intro-carousel/banner_background.png) center bottom no-repeat;
+    background: url(../img/intro-carousel/banner2.png) center bottom no-repeat;
     background-size: cover;
     padding: 200px 0 120px 0;
 	top:0px;
@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #bdc3c7;
+  color:  #268a82;
 }
 
 .nav-menu > li {
@@ -553,7 +553,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 3px;
   bottom: 0;
   left: 0;
-  border-top: #FF5722 dashed 2px;
+  border-top: #268a82 dashed 2px;
   right: 0;
   text-align: center;
   margin: 0 auto;
@@ -666,7 +666,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon i:before {
-  background: linear-gradient(45deg, #FF5722 0%, #2c3e50 100%);
+  background: linear-gradient(45deg, #97dfd9 0%, #2c3e50 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1043,7 +1043,7 @@ p.help-block li {
   font-size: 24px;
   display: inline-block;
   margin-bottom: 0;
-  color: #FF5722;
+  color: #268a82;
   float: left;
 }
 
@@ -1205,7 +1205,7 @@ p.help-block li {
 }
 
 #footer .credits a {
-  color: #FF5722;
+  color: #268a82 ;
 }
 .owl-carousel .owl-item img {
     display: block;
