@@ -8,7 +8,8 @@ use Illuminate\Support\Facades\Mail;
 
 class sendEmailController extends Controller
 {
-    private $companyEmail = 'mazenn99@gmail.com';
+    // this controller to send email from the form in index page
+    private $companyEmail = 'info@hod.sa';
     public function sendEmail(SendEmailRequest $request) {
         Mail::send([] , [] , function($message) use ($request) {
            $message->subject('email from site');
