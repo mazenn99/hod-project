@@ -98,7 +98,127 @@
                         </ul>
                     </div>
                 </div>
+                <hr>
+                <!--==========================
+      Contact Section
+    ============================-->
+                <section id="contact" class="wow fadeInUp">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2>{{trans('home/feature.happy_serve_you')}}</h2>
+                            <p>
+                                {{trans('home/index.your_service_is_our_priority')}}
+                            </p>
+                        </div>
 
+                        <div class="row contact-info">
+                            <div class="col-lg-12">
+                                <div class="container">
+                                    <div class="form">
+                                        @if(session()->has('success'))
+                                            <div class="alert alert-success">{{session()->get('success')}}</div>
+                                        @endif
+                                    <!-- Form itself -->
+                                        <form name="sentMessage" action="{{route('ask.price')}}" method="POST"
+                                              class="well" id="contactForm" enctype="multipart/form-data">
+                                            @csrf
+                                            <div class="control-group">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="name"
+                                                           placeholder="{{trans('home/feature.company_name_or_individual')}}"
+                                                           id="name" required
+                                                           data-validation-required-message="{{trans('home/feature.company_name_or_individual')}}"/>
+                                                    <p class="help-block"></p>
+                                                    @error('name')
+                                                    <small class="small text-danger">{{$message}}</small>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="number" class="form-control"
+                                                           placeholder="{{trans('home/feature.vehicle_number')}}"
+                                                           id="number" required name="number"
+                                                           data-validation-required-message="{{trans('home/feature.vehicle_number')}}"/>
+                                                    @error('number')
+                                                    <small class="small text-danger">{{$message}}</small>
+                                                    @enderror
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="text" class="form-control"
+                                                           placeholder="{{trans('home/feature.city')}}"
+                                                           id="city" required name="city"
+                                                           data-validation-required-message="{{trans('home/feature.city')}}"/>
+                                                    @error('city')
+                                                    <small class="small text-danger">{{$message}}</small>
+                                                    @enderror
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="tel" class="form-control"
+                                                           placeholder="{{trans('home/feature.phone_number')}}"
+                                                           id="city" required name="phone"
+                                                           data-validation-required-message="{{trans('home/feature.phone_number')}}"/>
+                                                    @error('phone')
+                                                    <small class="small text-danger">{{$message}}</small>
+                                                    @enderror
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="text" class="form-control"
+                                                           placeholder="{{trans('home/feature.position_or_job')}}"
+                                                           id="job" required name="job"
+                                                           data-validation-required-message="{{trans('home/feature.position_or_job')}}"/>
+                                                    @error('job')
+                                                    <small class="small text-danger">{{$message}}</small>
+                                                    @enderror
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="file" class="form-control"
+                                                           placeholder="{{trans('home/feature.Commercial_Register')}}"
+                                                           id="image" required name="image"
+                                                           data-validation-required-message="{{trans('home/feature.Commercial_Register')}}"/>
+                                                    @error('image')
+                                                    <small class="small text-danger">{{$message}}</small>
+                                                    @enderror
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="controls">
+			           	 <textarea rows="10" cols="100" class="form-control" name="description"
+                                   placeholder="{{trans('home/index.form_textarea')}}" id="message" required
+                                   data-validation-required-message="Please enter your message" minlength="5"
+                                   data-validation-minlength-message="Min 5 characters"
+                                   maxlength="999" style="resize:none"></textarea>
+                                                    @error('description')
+                                                    <small class="small text-danger">{{$message}}</small>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                            <div id="success"></div> <!-- For success/fail messages -->
+                                            <button type="submit"
+                                                    class="btn btn-primary pull-right">{{trans('home/index.send_button')}}</button>
+                                            <br/>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section><!-- #contact -->
             </div>
         </section><!-- #about -->
     </main>
