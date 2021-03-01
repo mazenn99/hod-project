@@ -18,7 +18,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 Route::get('/', function () {
     return view('index');
 });
-
+Route::get('feature_system' , 'FeatureSystemController@featureView')->name('feature_system_view');
 Route::post('send_email' , 'sendEmailController@sendEmail')->name('send.email');
 
 

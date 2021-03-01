@@ -40,7 +40,7 @@
                 <div class="col-lg-6 content" >
 {{--                   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>--}}
 {{--                    <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3>--}}
-                    <p class="mt-5 h4">{{trans('home/index.over_view')}}</p>
+                    <p class="mt-5 h4">{{trans('home/index.over_view')}} <br><br> {{trans('home/index.over_view_continue')}}</p>
 
                 </div>
             </div>
@@ -70,10 +70,26 @@
                 </div>
 
                 <div class="col-lg-6">
+                    <div class="box wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
+                        <h4 class="title"><a href="">{{trans('home/index.Tracking_protection_service')}}</a></h4>
+                        <p class="description">{{trans('home/index.Tracking_protection_service_overView')}}</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="box wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="icon"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+                        <h4 class="title"><a href="">{{trans('home/index.integrated_fleet_management_systems')}}</a></h4>
+                        <p class="description">{{trans('home/index.Integrated_management_systems')}}</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
                     <div class="box wow fadeInRight">
                         <div class="icon"><i class="fa fa-caret-square-o-down" aria-hidden="true"></i></div>
                         <h4 class="title"><a href="">{{trans('home/index.operating_card_version')}}</a></h4>
-                        <p class="description">{{trans('home/index.Operation_card_service')}}</p>
+                        <p class="description">{{trans('home/index.Operation_card_service')}} </p>
                     </div>
                 </div>
 
@@ -85,13 +101,6 @@
                     </div>
                 </div> --}}
 
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="icon"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">{{trans('home/index.integrated_fleet_management_systems')}}</a></h4>
-                        <p class="description">{{trans('home/index.Integrated_management_systems')}}</p>
-                    </div>
-                </div>
 
                 {{-- <div class="col-lg-4">
                     <div class="box wow fadeInLeft" data-wow-delay="0.2s">
@@ -101,13 +110,6 @@
                     </div>
                 </div> --}}
 
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
-                        <h4 class="title"><a href="">{{trans('home/index.Tracking_protection_service')}}</a></h4>
-                        <p class="description">{{trans('home/index.Tracking_protection_service_overView')}}</p>
-                    </div>
-                </div>
             </div>
 
         </div>
@@ -397,6 +399,8 @@
 
 {{--        </div>--}}
 {{--    </section><!-- #team -->--}}
+
+
 
     <!--==========================
       Contact Section

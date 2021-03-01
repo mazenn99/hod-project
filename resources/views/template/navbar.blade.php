@@ -19,6 +19,7 @@
                 <li class="menu-active"><a href="#body">{{trans('home/header.home')}}</a></li>
                 <li><a href="#about">{{trans('home/header.about')}}</a></li>
                 <li><a href="#services">{{trans('home/header.service')}}</a></li>
+                <li><a href="{{route('feature_system_view')}}">{{trans('home/header.feature_system')}}</a></li>
                 {{--                <li><a href="#portfolio">Portfolio</a></li>--}}
                 {{--                <li><a href="#team">Our Team</a></li>--}}
                 <li><a href="#contact">{{trans('home/header.contact')}}</a></li>

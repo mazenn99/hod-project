@@ -7,13 +7,12 @@ License: https://webthemez.com/license
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #f9f9f9;
   color: #444;
   font-family:  'Almarai' ,  sans-serif;
 }
-
 a {
-  color: #268A82;
+  color: #ececec;
   transition: 0.5s;
 }
 
@@ -64,6 +63,14 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   background: #FF9800;
   color: #fff;
+}
+
+/*Custom font hacen tunisia*/
+@font-face {
+    font-family : 'Hacen_Tunisia';
+    src:url(../font/Hacen_Tunisia.ttf);
+    font-style: normal;
+    font-weight: 100;
 }
 
 /*--------------------------------------------------------------
@@ -134,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 6px 0 0 0;
   padding: 0;
   line-height: 1;
-  font-family: "Almarai", sans-serif;
+  font-family: "Hacen_Tunisia", sans-serif;
   font-weight: 700;
 }
 
@@ -230,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-content .btn-banner, #hero .hero-content .btn-projects {
-  font-family: "Almarai", sans-serif;
+  font-family: "Hacen_Tunisia", sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -371,14 +378,14 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Almarai", sans-serif;
+  font-family: "Hacen_Tunisia", sans-serif;
   font-weight: 700;
   font-size: 14px;
   outline: none;
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #bdc3c7;
+  color: #6BB86C;
 }
 
 .nav-menu > li {
@@ -594,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #000000;
   font-weight: 700;
   font-size: 18px;
-  font-family: "Almarai", sans-serif;
+  font-family: "Hacen_Tunisia", sans-serif;
 }
 
 #about .content h3 {
@@ -689,11 +696,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box p {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 30px;
   text-align: center;
   display: block;
-  margin: 0;
+  margin: 18px 0 0 0;
   padding-top: 15px;
 }
 
@@ -942,7 +949,7 @@ p.help-block li {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Almarai", sans-serif;
+  font-family: "Hacen_Tunisia", sans-serif;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1212,4 +1219,22 @@ p.help-block li {
     width: auto;
     height: 70px;
     margin: 0 auto;
+}
+
+/*Feature system ul li list*/
+.feature-checklist li {
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #fff;
+    transition: 0.4s;
+    border: 1px solid #dedede;
+    border-right:4px solid #6BB86C;
+}
+.feature-checklist li i {
+    /*content: '✓';*/
+    padding:5px;
+
+}
+.feature-checklist li span {
+    font-weight: bold;
 }
