@@ -6,6 +6,6 @@ return [
     'service'   => 'services',
     'contact'   => 'contact',
     'login'     => 'login system',
-    'feature_system' => 'feature system',
+    'feature_system' => 'ask for price',
     'language'  => 'language'
 ];
