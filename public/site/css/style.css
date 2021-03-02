@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #FF9800;
+  background: #06978C;
   color: #fff;
 }
 
@@ -889,8 +889,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 22px 15px;
   font-size: 15px;
   color: #686868;
+  min-height:220px;
 }
-
+/*.owl-carousel .owl-stage {*/
+/*    transform: translate3d(0, 0px, 0px) !important;*/
+/*}*/
 #testimonials .owl-nav, #testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
@@ -967,8 +970,8 @@ p.help-block li {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #E91E63;
-  border: 3px solid #E91E63;
+  background: #06978C;
+  border: 3px solid #000;
 }
 
 /* Our Team Section
@@ -1243,3 +1246,4 @@ p.help-block li {
 .feature-checklist li span {
     font-weight: bold;
 }
+

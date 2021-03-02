@@ -8,7 +8,7 @@
     <meta content="" name="{{__('home/index.over_view')}}">
     <meta content="Author" name="aaysha1420@gmail.com">
     <!-- Favicons -->
-    <link href="{{asset('site')}}/img/logo_company.png" rel="icon" sizes="16x16">
+    <link href="{{asset('site')}}/img/fav-logo.png" rel="icon">
     <link href="{{asset('site')}}/img/logo_company.png" rel="apple-touch-icon" sizes="16x16">
 
     <!-- Google Fonts -->

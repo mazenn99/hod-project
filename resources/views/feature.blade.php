@@ -189,6 +189,7 @@
                                                            placeholder="{{trans('home/feature.Commercial_Register')}}"
                                                            id="image" required name="image"
                                                            data-validation-required-message="{{trans('home/feature.Commercial_Register')}}"/>
+                                                    <small class="small">{{trans('home/feature.Commercial_Register')}}</small>
                                                     @error('image')
                                                     <small class="small text-danger">{{$message}}</small>
                                                     @enderror

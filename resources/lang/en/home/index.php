@@ -1,9 +1,7 @@
 <?php
     return [
-        'provide' => 'Tracking systems and fleet management at Development House provide you with its services by going to any of the approved service centers spread throughout the Kingdom
-Or by sending a technical team to serve you at your site
-We seek to satisfy you with our services
-For inquiries, contact us',
+        'provide' => 'Tracking systems and fleet management at Tatweer House help you and we provide you with a price request form
+  We strive to satisfy you with our services. For inquiries, contact us',
         'copyright' => 'Copyright. All Rights Reserved',
         'copyright_company' => 'Deyarat Co.',
         'company_name' => 'House of Development',
@@ -15,7 +13,7 @@ For inquiries, contact us',
         'matching_weights' => 'Weight calibration service',
         'operating_card_version' => 'Trucks Operation card issuance',
         'integrated_fleet_management_systems' => 'Complete fleet management systems',
-        'contact_us' => 'contact us',
+        'contact_us' => 'A price request form',
         'pleased_to_serve_you' => 'pleased to serve you',
         'your_service_is_our_priority' => 'Your service is our priority and we are happy to contact you',
         'via_whatsapp' => 'via whatsapp',
