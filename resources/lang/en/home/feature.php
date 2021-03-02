@@ -43,4 +43,5 @@
         'Commercial_Register' => 'Please attach a copy of the commercial registration',
         'description' => 'description',
         'happy_serve_you' => 'Please fill out the form below and we will contact you',
+        'service_intelligent' => 'We seek to satisfy you and offer you our services for smarter and safer vehicles'
     ];

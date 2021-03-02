@@ -1,6 +1,85 @@
-@extends('template.master')
-@section('title' , 'Feature system')
-@section('content')
+<!DOCTYPE html>
+<html lang="{{app()->getLocale()}}" dir="<?php if(app()->getLocale() == 'en') echo 'ltr'; else echo 'rtl';?>">
+<head>
+    <meta charset="utf-8">
+    <title>{{trans('home/header.title')}}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="house of development , hod , {{trans('home/header.title')}}">
+    <meta content="" name="{{__('home/index.over_view')}}">
+    <meta content="Author" name="aaysha1420@gmail.com">
+    <!-- Favicons -->
+    <link href="{{asset('site')}}/img/fav-logo.png" rel="icon">
+    <link href="{{asset('site')}}/img/logo_company.png" rel="apple-touch-icon" sizes="16x16">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS File -->
+    @if(app()->getLocale() == 'en')
+        <link href="{{asset('site')}}/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    @else
+        <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.0.0/css/bootstrap.min.css" integrity="sha384-P4uhUIGk/q1gaD/NdgkBIl3a6QywJjlsFJFk7SPRdruoGddvRVSwv5qFnvZ73cpz" crossorigin="anonymous">
+@endif
+<!-- Libraries CSS Files -->
+    <link href="{{asset('site')}}/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{asset('site')}}/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="{{asset('site')}}/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="{{asset('site')}}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="{{asset('site')}}/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="{{asset('site')}}/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="{{asset('site')}}/css/style.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--==========================
+  Header
+============================-->
+<header id="header">
+    <div class="container">
+
+        <div id="logo" class="pull-left">
+            <h1><a href="#body" class="scrollto">
+                    {{--                    <span>--}}
+                    {{--                        <i class="fa fa-star-half-o" aria-hidden="true"> </i> --}}
+                    {{--                    </span>--}}
+                    <img src="{{asset('site/img/logo_company.png')}}" alt="">
+                </a></h1>
+        </div>
+
+
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active"><a href="{{route('home')}}">{{trans('home/header.home')}}</a></li>
+                <li><a href="{{route('home')}}">{{trans('home/header.about')}}</a></li>
+                <li><a href="{{route('home')}}">{{trans('home/header.service')}}</a></li>
+                <li><a href="{{route('home')}}">{{trans('home/header.feature_system')}}</a></li>
+                {{--                <li><a href="#portfolio">Portfolio</a></li>--}}
+                {{--                <li><a href="#team">Our Team</a></li>--}}
+                <li><a href="{{route('home')}}">{{trans('home/header.contact')}}</a></li>
+                <li><a href="http://gps.hod.sa/">{{trans('home/header.login')}}</a></li>
+                <li class="menu-has-children"><a href="">{{trans('home/header.language')}}</a>
+                    <ul>
+                        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                            <li><a rel="alternate" hreflang="{{ $localeCode }}"
+                                   href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                    {{ $properties['native'] }}
+                                </a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </li>
+            </ul>
+        </nav><!-- #nav-menu-container -->
+    </div>
+</header><!-- #header -->
+
     <!--==========================
   Hero Section
 ============================-->
@@ -105,9 +184,9 @@
                 <section id="contact" class="wow fadeInUp">
                     <div class="container">
                         <div class="section-header">
-                            <h2>{{trans('home/feature.happy_serve_you')}}</h2>
+                            <h2>{{trans('home/feature.service_intelligent')}}</h2>
                             <p>
-                                {{trans('home/index.your_service_is_our_priority')}}
+                                {{trans('home/feature.happy_serve_you')}}
                             </p>
                         </div>
 
@@ -224,4 +303,38 @@
             </div>
         </section><!-- #about -->
     </main>
-@endsection
+
+<!--==========================
+  Footer
+============================-->
+<footer id="footer">
+    <div class="container">
+        <div class="copyright">
+            &copy; {{trans('home/index.copyright')}} <strong> {{trans('home/index.copyright_company')}}</strong>
+        </div>
+        <div class="credits">
+            Desgin By <a href="mailto:aayahsa1420@gmail.com">@aysha</a>
+        </div>
+    </div>
+</footer><!-- #footer -->
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript  -->
+<script src="{{asset('site')}}/lib/jquery/jquery.min.js"></script>
+<script src="{{asset('site')}}/lib/jquery/jquery-migrate.min.js"></script>
+<script src="{{asset('site')}}/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{asset('site')}}/lib/easing/easing.min.js"></script>
+<script src="{{asset('site')}}/lib/superfish/hoverIntent.js"></script>
+<script src="{{asset('site')}}/lib/superfish/superfish.min.js"></script>
+<script src="{{asset('site')}}/lib/wow/wow.min.js"></script>
+<script src="{{asset('site')}}/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="{{asset('site')}}/lib/magnific-popup/magnific-popup.min.js"></script>
+<script src="{{asset('site')}}/lib/sticky/sticky.js"></script>
+<script src="{{asset('site')}}/contact/jqBootstrapValidation.js"></script>
+<script src="{{asset('site')}}/contact/contact_me.js"></script>
+<script src="{{asset('site')}}/js/main.js"></script>
+
+</body>
+</html>
+
