@@ -17,7 +17,7 @@
         'geographical_fence_title' => 'Geographical fence',
         'geographical_fence_topic' => 'This service allows you to set a geographical virtual fence for any vehicle and receive a notification once a preach accuse by that vehicle by sms or on your account .',
         'memory_title' => 'Memory',
-        'memory_title_topic' => 'In case there is no GSM network coverage all the data will be saved on an internal memory until coverage is available then it will be send as saved to ensure that there will be no data lost. ',
+        'memory_topic' => 'In case there is no GSM network coverage all the data will be saved on an internal memory until coverage is available then it will be send as saved to ensure that there will be no data lost. ',
         'satellite_title' => 'satellite ',
         'satellite_topic' => 'supporting US and Russian satellites that provide strong and accurate GPS services.',
         'camera_title' => 'Camera support',

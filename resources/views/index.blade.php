@@ -62,7 +62,7 @@
 
                 <div class="col-lg-6">
                     <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="fa fa-balance-scale" aria-hidden="true"></i></div>
+                        <div class="icon"><i class="fas fa-truck-moving"></i></div>
                         <h4 class="title"><a href="">{{trans('home/index.matching_weights')}}</a></h4>
                         <p class="description">{{trans('home/index.Weights_Matching_Service')}}
                         </p>
@@ -247,62 +247,356 @@
     <!--==========================
       Testimonials Section
     ============================-->
-{{--    <section id="testimonials" class="wow fadeInUp">--}}
-{{--        <div class="container">--}}
-{{--            <div class="section-header">--}}
-{{--                <h2>Testimonials</h2>--}}
-{{--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>--}}
-{{--            </div>--}}
-{{--            <div class="owl-carousel testimonials-carousel">--}}
+
+    <section id="testimonials" class="wow fadeInUp">
+        <div class="container">
+            <div class="section-header">
+                <h2>{{trans('home/feature.feature_system')}}</h2>
+                <p>{{trans('home/feature.feature_system_overview')}}</p>
+            </div>
+{{--            <div class="owl-carousel testimonials-carousel" @if(app()->getLocale() == 'ar') {{'style="direction:rtl"'}} @endif >--}}
 
 {{--                <div class="testimonial-item">--}}
-{{--                    <p>Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore--}}
+{{--                    <p><i class="fa fa-shield fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+{{--                        {{trans('home/feature.security_topic')}}--}}
 
 {{--                    </p>--}}
-{{--                    <h3>Mrio James</h3>--}}
+{{--                    <h3>{{trans('home/feature.security_title')}}</h3>--}}
 {{--                    <h4>CEO &amp; Founder</h4>--}}
 {{--                </div>--}}
 
 {{--                <div class="testimonial-item">--}}
 {{--                    <p>--}}
-{{--                        Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore--}}
+{{--                        <i class="fa fa-money fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+{{--                        {{trans('home/feature.safe_money_topic')}}--}}
 
 {{--                    </p>--}}
-{{--                    <h3>Finton Gofnes</h3>--}}
+{{--                    <h3>{{trans('home/feature.safe_money_title')}}</h3>--}}
 {{--                    <h4>CTO</h4>--}}
 {{--                </div>--}}
 
 {{--                <div class="testimonial-item">--}}
 {{--                    <p>--}}
-{{--                        Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore--}}
+{{--                        <i class="fa fa-clock-o fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+{{--                        {{trans('home/feature.safe_time_topic')}}--}}
 
 {{--                    </p>--}}
-{{--                    <h3>Marcus Kell</h3>--}}
+{{--                    <h3>{{trans('home/feature.safe_time_title')}}</h3>--}}
 {{--                    <h4>Marketing</h4>--}}
 {{--                </div>--}}
 
 {{--                <div class="testimonial-item">--}}
 {{--                    <p>--}}
-{{--                        Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore--}}
+{{--                        <i class="fa fa-map-marker fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.live_tracking_topic')}}--}}
 
 {{--                    </p>--}}
-{{--                    <h3>Williams Belly</h3>--}}
+{{--                    <h3>{{trans('home/feature.live_tracking_title')}}</h3>--}}
 {{--                    <h4>Accounts</h4>--}}
 {{--                </div>--}}
 
 {{--                <div class="testimonial-item">--}}
 {{--                    <p>--}}
-{{--                        Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore--}}
+{{--                        <i class="fas fa-gamepad fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.full_control_topic')}}--}}
 
 {{--                    </p>--}}
-{{--                    <h3>Larry Hanson</h3>--}}
+{{--                    <h3>{{trans('home/feature.full_control_title')}}</h3>--}}
 {{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-globe fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.geographical_fence_topic')}}--}}
+{{--                    </p>--}}
+{{--                    <h3>{{trans('home/feature.geographical_fence_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-window-minimize fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.memory_topic')}}--}}
+
+{{--                    </p>--}}
+{{--                    <h3>{{trans('home/feature.memory_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-bolt fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.satellite_topic')}}--}}
+
+{{--                    </p>--}}
+{{--                    <h3>{{trans('home/feature.satellite_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-camera fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.camera_topic')}}--}}
+{{--                    </p>--}}
+{{--                    <h3{{trans('home/feature.camera_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-bell-o fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.notifications_topic')}}--}}
+
+{{--                    </p>--}}
+{{--                    <h3>{{trans('home/feature.notifications_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-minus-circle fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.speed_limiting_topic')}}--}}
+{{--                    </p>--}}
+{{--                    <h3>{{trans('home/feature.speed_limiting_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-microphone fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.microphone_topic')}}--}}
+{{--                    </p>--}}
+{{--                    <h3>{{trans('home/feature.microphone_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-file-text fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.Multiple_reports_topic')}}--}}
+{{--                    </p>--}}
+{{--                    <h3>{{trans('home/feature.Multiple_reports_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-language fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.different_language_topic')}}--}}
+{{--                    </p>--}}
+{{--                    <h3>{{trans('home/feature.different_language_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
+{{--                </div>--}}
+
+{{--                <div class="testimonial-item">--}}
+{{--                    <p>--}}
+{{--                        <i class="fa fa-thumb-tack fa-3x mb-2" aria-hidden="true"></i> <br>--}}
+
+{{--                        {{trans('home/feature.accelerated_growth_topic')}}                    </p>--}}
+{{--                    <h3>{{trans('home/feature.accelerated_growth_title')}}</h3>--}}
+{{--                    --}}{{--                    <h4>Investor</h4>--}}
 {{--                </div>--}}
 
 {{--            </div>--}}
 
-{{--        </div>--}}
-{{--    </section><!-- #testimonials -->--}}
+            <div class="row">
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.security_title')}}</div>
+                        <div class="card-body">
+{{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.security_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.safe_money_title')}}</div>
+                        <div class="card-body">
+{{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.safe_money_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.safe_time_title')}}</div>
+                        <div class="card-body">
+{{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.safe_time_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.live_tracking_title')}}</div>
+                        <div class="card-body">
+{{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.live_tracking_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.full_control_title')}}</div>
+                        <div class="card-body">
+{{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.full_control_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.geographical_fence_title')}}</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Light card title</h5>
+                            <p class="card-text">
+                                {{trans('home/feature.geographical_fence_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.memory_title')}}</div>
+                        <div class="card-body">
+{{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.memory_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.satellite_title')}}</div>
+                        <div class="card-body">
+{{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.satellite_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.camera_title')}}</div>
+                        <div class="card-body">
+{{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.camera_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.notifications_title')}}</div>
+                        <div class="card-body">
+                            {{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.notifications_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.speed_limiting_title')}}</div>
+                        <div class="card-body">
+                            {{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.speed_limiting_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.microphone_title')}}</div>
+                        <div class="card-body">
+                            {{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.microphone_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.Multiple_reports_title')}}</div>
+                        <div class="card-body">
+                            {{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.Multiple_reports_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.different_language_title')}}</div>
+                        <div class="card-body">
+                            {{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.different_language_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.accelerated_growth_title')}}</div>
+                        <div class="card-body">
+                            {{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.accelerated_growth_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">{{trans('home/feature.Multiple_reports_title')}}</div>
+                        <div class="card-body">
+                            {{--                            <h5 class="card-title">Light card title</h5>--}}
+                            <p class="card-text">
+                                {{trans('home/feature.Multiple_reports_topic')}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- #testimonials -->
 
     <!--==========================
       Call To Action Section
@@ -315,7 +609,7 @@
                     <p class="cta-text h5">{{trans('home/index.provide')}}</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#contact">{{trans('home/index.contact_us')}}</a>
+                    <a class="cta-btn align-middle" href="{{route('feature_system_view')}}">{{trans('home/index.contact_us')}}</a>
                 </div>
             </div>
 
