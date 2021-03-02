@@ -6,6 +6,6 @@ return [
     'service'   => 'الخدمات',
     'contact'   => 'اتصل بنا',
     'login'     => 'دخول للنظام',
-    'feature_system' => 'طلب عرض سعر',
+    'feature_system' => 'مميزات نظامنا',
     'language'  => 'اختر اللغة',
 ];

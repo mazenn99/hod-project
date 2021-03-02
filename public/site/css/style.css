@@ -651,7 +651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   transition: 0.4s;
   border: 1px solid #dedede;
-  min-height: 280px;
+  height: 380px;
 }
 
 #services .box:hover {
@@ -1219,7 +1219,7 @@ p.help-block li {
 }
 
 #footer .credits a {
-  color: #268a82 ;
+  color: #FFF ;
 }
 .owl-carousel .owl-item img {
     display: block;

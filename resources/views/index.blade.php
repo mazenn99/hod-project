@@ -346,7 +346,7 @@
 
                         {{trans('home/feature.camera_topic')}}
                     </p>
-                    <h3{{trans('home/feature.camera_title')}}</h3>
+                    <h3>{{trans('home/feature.camera_title')}}</h3>
 {{--                                        <h4>Investor</h4>--}}
                 </div>
 
