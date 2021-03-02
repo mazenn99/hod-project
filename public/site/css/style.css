@@ -884,7 +884,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto 15px auto;
   background: #ffffff;
   width: 100%;
-  border: 1px solid #FF5722;
+  border: 1px solid #O6978C;
   border-radius: 15px 15px 0 15px;
   padding: 22px 15px;
   font-size: 15px;
@@ -909,7 +909,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #FF5722;
+  background-color: #06978C;
 }
 .map{
 
