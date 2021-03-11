@@ -146,7 +146,7 @@
 {{--                            <li><i class="fa fa-window-minimize" aria-hidden="true"></i>--}}
 {{--                                <span>{{trans('home/feature.memory_title')}} :             </span> {{trans('home/feature.memory_topic')}}--}}
 {{--                            </li>--}}
-{{--                            <li><i class="fa fa-bolt" aria-hidden="true"></i>--}}
+{{--                            <li><i class="fas fa-satellite-dish"></i>--}}
 {{--                                <span>{{trans('home/feature.satellite_title')}} :          </span> {{trans('home/feature.satellite_topic')}}--}}
 {{--                            </li>--}}
 {{--                            <li><i class="fa fa-camera" aria-hidden="true"></i>--}}
@@ -303,8 +303,12 @@
             </div>
         </section><!-- #about -->
     </main>
+     <div class="container mb-4 map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.0471607875297!2d46.75202871499953!3d24.690905484134237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f06ae97135a9f%3A0x1c06c3a480e41e88!2sDeyarat%20Co.!5e0!3m2!1sen!2ssa!4v1614109413067!5m2!1sen!2ssa" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
 
 <!--==========================
+
   Footer
 ============================-->
 <footer id="footer">

@@ -331,7 +331,7 @@
 
                 <div class="testimonial-item">
                     <p>
-                        <i class="fa fa-bolt fa-3x mb-2" aria-hidden="true"></i> <br>
+                        <i class="fas fa-satellite-dish fa-3x mb-2" aria-hidden="true"></i> <br>
 
                         {{trans('home/feature.satellite_topic')}}
 

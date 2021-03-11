@@ -651,7 +651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   transition: 0.4s;
   border: 1px solid #dedede;
-  height: 400px;
+  min-height:420px;
 }
 
 #services .box:hover {

@@ -1,6 +1,6 @@
 <?php
     return [
-        'feature_system' => 'feature system',
+        'feature_system' => 'System features',
         'feature_system_overview' => 'we provide our services in any of our approved service points across the kingdom or by sending our team to your location',
         'security_title' => 'security',
         'security_topic' => 'safe your vehicles from theft and assaults through features like taking pictures of the driver and remote engine shutdown',
