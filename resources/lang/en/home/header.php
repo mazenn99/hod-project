@@ -7,5 +7,6 @@ return [
     'contact'   => 'contact',
     'login'     => 'login system',
     'feature_system' => 'feature system',
-    'language'  => 'language'
+    'language'  => 'language',
+    'market'    => 'market'
 ];
