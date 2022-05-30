@@ -8,4 +8,5 @@ return [
     'login'     => 'دخول للنظام',
     'feature_system' => 'مميزات نظامنا',
     'language'  => 'اختر اللغة',
+    'market' => 'المتجر'
 ];
